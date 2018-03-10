@@ -24955,9 +24955,13 @@
 
 	    render: function render() {
 	        return React.createElement(
-	            'h2',
+	            'div',
 	            null,
-	            'About Component'
+	            React.createElement(
+	                'h2',
+	                null,
+	                'About Component'
+	            )
 	        );
 	    }
 	});
